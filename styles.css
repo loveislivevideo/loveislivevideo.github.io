@@ -1,0 +1,90 @@
+/* Reset default styles */
+body, figure, h1, h2, img, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set body background and font styles */
+body {
+    background-color: #f6f6f6;
+    font-family: Arial, sans-serif;
+}
+
+/* Set header styles */
+header {
+    background-color: #ff4d4d;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    color: #fff;
+    font-size: 36px;
+    margin: 0;
+}
+
+/* Set section styles */
+section {
+    padding: 40px;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.screenshots {
+    text-align: center;
+}
+
+.screenshot-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.screenshot-container img {
+    margin: 0 10px;
+}
+
+.icon img {
+    margin-top: 20px;
+    width: 300px;
+    height: 300px;
+    justify-content: center;
+    text-align: center;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 12px 24px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    background-color: #ff4d4d;
+    border-radius: 30px;
+    margin-right: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #ff3333;
+}
+
+/* Set footer styles */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #ff4d4d;
+    color: #fff;
+}
